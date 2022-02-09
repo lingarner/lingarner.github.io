@@ -1,0 +1,64 @@
+body{
+    background-color: white;
+    grid-template-columns: 1fr 2fr;
+    text-align: center;
+    color: darkslategrey;
+    display: grid;
+    
+    }
+img {width: 100%;}
+    
+h1{
+    font-family: 'Martel Sans', sans-serif;
+    font-size: 2em; 
+}
+
+h2{
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+h3{
+  
+}
+
+
+
+.stack{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 20px;
+    border-radius: 5%;
+    border-color: dimgray;
+    border-width: 1px;
+    padding: 10px;
+    text-align: left;
+    
+    
+}
+
+#Email{
+    border-radius: 12px;
+    padding-block: 20px;
+    font-size:larger;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 15px;
+}
+
+#Name{
+    border-radius: 12px;
+    font-size: larger;
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 15px;
+}
+
+
+button{
+    border-radius: 12px;
+    background-color: orange;
+    color: white;
+    width: 100px;
+    text-transform: uppercase;  
+    font-weight: bold;
+    padding-block: 12px;
+    font-family: 'Martel Sans', sans-serif
+}
