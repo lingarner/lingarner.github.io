@@ -1,0 +1,31 @@
+body{
+    background-color: blueviolet
+}
+main{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    /* the 1fr is what divides it into columns by making the number bigger you divide it
+    into a bigger column */
+
+    /* whatever the largest item in the row of the grid the height of all of 
+    the rest of the columns will match it */
+}
+.frogcolor{
+    background-color: green;
+}
+.skills{
+    background-color: yellow;
+    grid-row: 2;
+    grid-column: 2;
+}
+.skills div{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.eating{
+    background-color: brown;
+    grid-row: 1;
+    grid-column: 2/4;
+
+    /* by doing 2/4 it is saying that this class can span across 'box' 2 - 4 */
+}
