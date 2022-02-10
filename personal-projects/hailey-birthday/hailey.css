@@ -1,0 +1,73 @@
+ body{
+    background-color: #fee255;
+ }
+
+.title{
+    border-radius: 12px;
+    background-color: #ffdce0;
+    font-family: 'Homemade Apple', cursive;
+    font-size: 70px;
+    border-style: solid;
+    border: 3px;
+
+}
+
+img{ 
+    opacity: 80%;
+    padding: 30px;
+}
+
+.text{
+    font-family: 'Lexend', sans-serif;
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.mySlides{
+    display:grid;
+    grid-template-columns: 2fr 1fr 2fr ;
+
+}
+
+.one{
+    border: 20px dotted #FE6A86;
+    border-radius: 20px;
+}
+
+.two{
+    border: 20px solid #FE6A86;
+    border-radius: 20px;
+}
+
+.three{
+    border: 20px solid #FE6A86;
+    border-radius: 20px;
+}
+
+.four{
+    border: 20px solid #FE6A86;
+    border-radius: 20px;
+}
+
+.five{
+    border: 20px dotted #FE6A86;
+    border-radius: 20px;
+}
+
+.six{
+    border: 20px solid #FE6A86;
+    border-radius: 20px;
+}
+
+.seven{
+    border: 20px dotted #FE6A86;
+    border-radius: 20px;
+}
+
+.eight{
+    border: 20px solid #FE6A86;
+
+    border-radius: 20px;
+}
+
