@@ -92,7 +92,7 @@ body{
 header{
     background-color: #fcbf49;
     display:grid;
-    grid-template-columns: 150px, auto;
+    grid-template-columns: 150px auto;
 }
 
 .book{
