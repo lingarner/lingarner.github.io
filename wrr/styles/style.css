@@ -239,12 +239,129 @@ main section img {
     box-sizing: border-box;
 }
 
+/* Reviews Website */
+.organize{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px 1fr 1fr 250px 500px ;
+}
+
+.centering{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#lindsey-img{
+    max-width:80em;
+    max-height:50em;
+    grid-column: 1;
+    grid-row: 2;
+    border: 10px solid #003049;
+    box-shadow: 5px 5px 10px #6f7364
+    
+   
+    
+}
+#pearson-img{
+    max-width:80em;
+    max-height:50em;
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    border: 10px solid #003049;
+    box-shadow: 5px 5px 10px #6f7364
+
+}
+#joris-img{
+    max-width:80em;
+    max-height:50em;
+    grid-column: 3;
+    grid-row:2;
+    text-align: center;
+    border: 10px solid #003049;
+    box-shadow: 5px 5px 10px #6f7364
+
+}
+
+#jacka-img{
+    max-width: 100em;
+    max-height: 25em;
+    grid-column: 1/4;
+    grid-row: 5;
+    text-align: left;
+    border: 10px solid #003049;
+    box-shadow: 5px 5px 10px #6f7364;
+    
+    
+}
+
+.centering2{
+    display:block;
+    margin-left: 80px;
+}
 
 
 
+#advent{
+    grid-column: 1/5;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    font-family: 'Mogra', cursive;
+    font-size: 2em;
+    color: #f34b3f;
+}
 
+#words{
+    grid-column: 1;
+    grid-row: 3/4;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    line-height: 1.75em;
+ }
 
+#word2{
+    grid-column: 2;
+    grid-row: 3/4;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    line-height: 1.75em;
+}
 
+#word3{
+    grid-column:3;
+    grid-row: 3/4;
+    font-size: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 45px;
+    line-height: 1.75em;
+}
+
+#word4{
+    grid-column: 3;
+    grid-row: 5/6;
+    font-size: 15px;
+    padding-right: 30px;
+    padding-top: 80px;
+    line-height: 2.5em;
+}
+ .font{
+     font-size: 20px;
+ }
+
+ section{
+     grid-row: 4;
+     grid-column: 2/3;
+     padding-top: 100px;
+     
+ }
 
 
 
@@ -288,4 +405,5 @@ main section img {
     footer {
         margin-top: 25px;
     }
+
 }

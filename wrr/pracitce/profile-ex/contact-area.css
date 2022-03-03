@@ -1,0 +1,46 @@
+
+body, h1, h2, h3, h4, h5, h6, ul, li, p{
+    margin:0; 
+    padding:0;
+}
+
+body{
+    background-color: #ced7e4;
+}
+
+
+/* has to be in this order every time to change color for link */
+a:link, a:visited, a:hover, a:active, a:focus {
+    color:#478ecb
+}
+
+a:hover{
+    color:#997364
+}
+
+
+h2{
+    color: #2d3b55;
+    font-size: 1.3em;
+    margin-bottom: 24px;
+}
+
+ul{
+    font-size: 1.26em;
+    list-style: none;
+    color: #2d3b55;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 200px 400px;
+    gap: 50px;
+    margin: 10px auto;
+    width: 715px;
+
+}
+
+main image {
+    width: 100%;
+}
+
