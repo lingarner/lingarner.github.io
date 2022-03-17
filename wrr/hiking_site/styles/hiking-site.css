@@ -52,6 +52,7 @@
     font-family: "Changa One";
     grid-column: 2;
     grid-row: 1;
+
 }
 
 #title2{
@@ -92,6 +93,7 @@ nav a:hover{
 
 h1{
     font-family: "Changa One";
+
 }
 
 
@@ -192,3 +194,14 @@ footer a{
     box-shadow: 5px 5px 10px #12263A;
     
 }
+
+#face:hover{
+    transform: scale(1.2);
+}
+#twit:hover{
+    transform: scale(1.2)
+}
+#insta:hover{
+    transform: scale(1.2);
+}
+
