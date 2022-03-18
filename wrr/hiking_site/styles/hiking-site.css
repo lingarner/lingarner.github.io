@@ -187,7 +187,7 @@ footer a{
     padding-bottom: 80px;
 }
 
-#shadow{
+.shadow{
     border-radius: 12%;
     border: 10px solid #A1E8CC;
     transition: transform .5s;
@@ -205,3 +205,6 @@ footer a{
     transform: scale(1.2);
 }
 
+hr{
+    border-bottom:5px solid;
+}
