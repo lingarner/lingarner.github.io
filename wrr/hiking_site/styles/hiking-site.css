@@ -245,10 +245,6 @@ hr{
   }
   
   /* The container <div> - needed to position the dropdown content */
-  .type2 .dropdown {
-    position: absolute;
-
-  }
   
   .dropdown-content {
     display: none;
