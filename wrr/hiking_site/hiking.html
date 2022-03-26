@@ -5,58 +5,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hiking</title>
+    <link rel="stylesheet" href="styles/hiking-site.css">
 </head>
-<body>
+<body class="color">
     <header>
-        <a href="index.html" id="logo_link">
-            <img class='logo' src="logo-option1.png" alt="Hike Arizona Logo" >
-        </a>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="hiking.html">Hiking</a>
-            <a href="safety-tips.html">Safety Tips</a>
+        <div>
+            <nav>
+                <div>
+                    <img class='logo' src="logo-option1.png" alt="Hike Arizona Logo" >
+                </div>
+                <a href="index.html">Home</a>
+                <a href="hiking.html">Hiking</a>
+                <a href="safety-tips.html">Safety Tips</a>
+            
+            </nav>
+        </div>
     </header>
     <main>
-        <h1>Let the Adventure Begin</h1>
-        <div>
-            <h4>Search Hikes</h4>
-            <input></input>
+        <h1 id="title-center">Let the Adventure Begin</h1>
+
+        <div class="type2">
+            <div>
+                <h4>Search Hikes</h4>
+                <input type="text" placeholder="Search...">
+            </div>
+
+            <img id="canyon" src="images/IMG_3.jpg">
+                <p id="canyon-text">Grand Canyon</p>
+            <img id="ship" src="images/IMG_5.jpg">
+                <p id="ship-text">The Battleship</p>
+            <img id="lake" src="images/IMG_4.jpg">
+                <p id="lake-text">Canyon Lake</p>
+        
         </div>
 
         <div>
-            <img src="images/IMG_3.jpg">
-                <p>Grand Canyon</p>
-            <img src="images/IMG_4.jpg">
-                <p>The Battleship</p>
-            <img src="images/IMG_5.jpg">
-                <p>Canyon Lake</p>
-        </div>
-
-        <section>
             <h4>Subscribe</h4>
-            <input></input>
-        </section>
+            <input type="text" placeholder="Subscribe">
+        </div>
 
     </main>
     <footer>
         <div class='social'>
             <a href='https://facebook.com'>
-                <img src="images/facebook.png" alt='fb icon'>
+                <img id="face" src="images/facebook.png" alt='fb icon'>
             </a>
             <a href='https://twitter.com'>
-                <img src ='images/twitter.png' alt='twitter icon'>
+                <img id="twit" src ='images/twitter.png' alt='twitter icon'>
             </a>
-
+        
             <a href="https://instagram.com">
-                <img src="images/instagram.png" alt="instagram icon">
+                <img id="insta" src="images/instagram.png" alt="instagram icon">
             </a>
         </div> 
 
-        <h3>Hike Arizona &copy; 2022</h3>
-        <h3>Lindsay Garner</h3>
-        <h4><a href="hiking.html">Hiking</a></h4>
-        <h4><a href="safety-tips.html">Safety</a></h4>
-</footer>
+        <h3 id="copy">Hike Arizona &copy; 2022</h3>
+        <h3 id="name">Lindsay Garner</h3>
+        <h4 id="hiking"><a href="hiking.html">Hiking</a></h4>
+        <h4 id="safe"><a href="safety-tips.html">Safety</a></h4>
+        <h4 id="site"><a href="site-plan.html">Site Plan</a></h4>
+    </footer>   
 
 </body>
 </html>

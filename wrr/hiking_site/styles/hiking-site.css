@@ -208,3 +208,68 @@ footer a{
 hr{
     border-bottom:5px solid;
 }
+
+
+
+
+/* Hiking Site */
+
+.color{
+    background-color: #59A96A;
+}
+
+#title-center{
+    text-align: center;
+    padding: 30px;
+}
+
+input[type=text] {
+    float: left;
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+    border-radius: 20px;
+    border-radius: black;
+  }
+
+  .type2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30em 30em 30em;
+}
+
+
+#canyon{
+    border-radius: 20px;
+    grid-column:2;
+    grid-row:1;
+}
+.type2 #ship{
+    border-radius: 20px;
+    grid-column:2;
+    grid-row:2;
+}
+.type2 #lake{
+    border-radius: 20px;
+    grid-column:2;
+    grid-row:3;
+}
+
+
+
+.type2 #canyon-text{
+    grid-column:3;
+    grid-row:1;
+    text-align: center;
+}
+.type2 #ship-text{
+    grid-column:3;
+    grid-row:2;
+    text-align: center;
+}
+.type2 #lake-text{
+    grid-column:3;
+    grid-row:3;
+    text-align: center;
+}
