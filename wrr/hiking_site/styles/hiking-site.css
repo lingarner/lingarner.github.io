@@ -65,7 +65,7 @@ nav{
     display:grid;
     grid-template-columns: 1fr 170px 170px 170px;
     background-color: #A1E8CC;
-    border-radius: 12%;
+    border-radius: 35px;
     border: 10px solid #A1E8CC;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #12263A;
@@ -85,7 +85,7 @@ nav a{
 nav a:hover{
     background-color:#59A96A;
     color:white;
-    border-radius: 12%;
+    border-radius: 20px;
 }
 .logo{
     padding-left: 20px;
@@ -102,15 +102,19 @@ h1{
     margin: 20px;
     width: 96%;
     
+
 }
 
+#hero{
+    max-width:8000px;
+}
 
 footer{
     display:grid;
     grid-template-columns: 1fr 170px 170px 170px;
     grid-template-rows: 25px 25px 25px 25px 50px ;
     background-color: #A1E8CC;
-    border-radius: 12%;
+    border-radius: 35.9px;
     border: 10px solid #A1E8CC;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #12263A;
@@ -214,62 +218,168 @@ hr{
 
 /* Hiking Site */
 
-.color{
-    background-color: #59A96A;
+
+
+.title-center{
+    text-align: center; 
+    font-family: "Changa One"; 
 }
 
-#title-center{
-    text-align: center;
-    padding: 30px;
-}
-
-input[type=text] {
-    float: left;
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    font-size: 17px;
-    border-radius: 20px;
-    border-radius: black;
-  }
 
   .type2{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 30em 30em 30em;
+    grid-template-rows: 14em 20em 14em;
+    align-items: center;
+    justify-items: center;
 }
+.dropbtn {
+    background-color: #A1E8CC;
+    color: white;
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    grid-column: 2;
+    grid-row: 3;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .type2 .dropdown {
+    position: left;
 
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+    
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    min-width: 153px;
+    border-radius: 15px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+      text-align: left;
+    }
+  
+  .dropdown:hover .dropbtn {background-color: #A1E8CC;}
+
+
+
+  /* Dropup Button */
+.dropbtn {
+    background-color: #59A96A;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropup content */
+  .dropup {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropup content (Hidden by Default) */
+  .dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 15px;
+  }
+  
+  /* Links inside the dropup */
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-radius: 15px;
+  }
+  
+  /* Change color of dropup links on hover */
+  .dropup-content a:hover {background-color: #ddd}
+  
+  /* Show the dropup menu on hover */
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropup button when the dropup content is shown */
+  .dropup:hover .dropbtn {
+    background-color: #A1E8CC;
+  }
+
+
+#explain{
+    text-align: center;
+    font-size: 20px;
+}
 
 #canyon{
     border-radius: 20px;
-    grid-column:2;
+    grid-column:1;
     grid-row:1;
+    max-width: 300px;
+    max-height: 300px;
 }
 .type2 #ship{
     border-radius: 20px;
-    grid-column:2;
+    grid-column:1;
     grid-row:2;
+    max-width: 400px;
+    max-height: 300px;
 }
 .type2 #lake{
     border-radius: 20px;
-    grid-column:2;
+    grid-column:1;
     grid-row:3;
+    max-width: 300px;
+    max-height: 300px
 }
 
-
-
-.type2 #canyon-text{
+.type2 #wave{
+    border-radius: 20px;
     grid-column:3;
     grid-row:1;
-    text-align: center;
+    min-width: 300px;
+    max-height: 200px
 }
-.type2 #ship-text{
+
+.type2 #buckskin{
+    border-radius: 20px;
     grid-column:3;
     grid-row:2;
-    text-align: center;
+    max-width: 300px;
+    max-height: 300px
 }
-.type2 #lake-text{
+.type2 #bridge{
+    border-radius: 20px;
     grid-column:3;
     grid-row:3;
-    text-align: center;
+    min-width: 300px;
+    max-height: 220px
 }
+
+
+
+
