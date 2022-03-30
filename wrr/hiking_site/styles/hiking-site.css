@@ -192,7 +192,7 @@ footer a{
 }
 
 .shadow{
-    border-radius: 12%;
+    border-radius: 40px;
     border: 10px solid #A1E8CC;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #12263A;
@@ -212,6 +212,11 @@ footer a{
 hr{
     border-bottom:5px solid;
 }
+
+
+
+
+
 
 
 
@@ -378,4 +383,154 @@ hr{
 
 
 
+
+
+
+
+
+
+/* Safety Site */
+
+.separate{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 7em 1fr 1fr 5em;
+    align-items: center;
+    justify-items: center;
+}
+
+#tips-title{
+    grid-column: 2;
+    grid-row: 1;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Changa One";
+}
+
+#heat{
+    grid-column: 1;
+    grid-row: 2;
+    border-radius: 30px;
+    max-width: 300px;
+    max-height: 400px;
+    border: 10px solid #59A96A;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #12263A;
+
+}
+
+#heat-text{
+    grid-column: 1;
+    grid-row: 3;
+    text-align: left;
+    line-height: 25px;
+    padding-left: 70px;
+}
+
+#snake{
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 400px;
+    border: 10px solid #59A96A;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #12263A;
+    
+
+}
+
+#snake-text{
+    grid-column: 2;
+    grid-row: 3;
+    text-align: left;
+    padding: 50px;
+    line-height: 23px;
+}
+
+#map{
+    border-radius: 20px;
+    max-width: 300px;
+    max-height: 400px;
+    border: 10px solid #59A96A;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #12263A;
+
+}
+
+#map-text{
+    grid-column: 3;
+    grid-row: 3;
+    text-align: left;
+    line-height: 27px;
+    padding-right: 50px;
+    padding-bottom: 17px;
+}
+
+
+.separate #snake{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.separate #map{
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.foots{
+    grid-row: 4;
+}
+
+
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+#paw{
+    grid-column: 2;
+    grid-row: 4;
+    padding-bottom: 100px;
+    padding-top: 3em;
+    color:black;
+}
+
+#paw:hover{
+    opacity: .6;
+    transform: scale(1.1);
+}
+
+#fire{
+    grid-column: 1;
+    grid-row: 4;
+    padding-bottom: 100px;
+    padding-top: 6em;
+    color: black;
+}
+
+#fire:hover{
+    opacity: .6;
+    transform: scale(1.1);
+    padding-bottom: 100px;
+}
+
+#post{
+    grid-column: 3;
+    grid-row: 4;
+    padding-bottom: 100px;
+    padding-top: 3em;
+    color: black;
+}
+
+
+#post:hover{
+    opacity: .6;
+    transform: scale(1.1);
+    padding-bottom: 100px;
+}
+
+#help{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 
