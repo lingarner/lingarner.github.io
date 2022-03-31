@@ -48,6 +48,10 @@
     text-align: right;
 }
 
+.words{
+    font-size: 23px;
+}
+
 #title{
     font-family: "Changa One";
     grid-column: 2;
